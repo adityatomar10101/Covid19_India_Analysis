@@ -1,27 +1,51 @@
-# Covid19_India_Analysis
+# COVID-19 Data Extraction and Analysis Project
 
-Two Covid Datasets (JSON format) were used to extract data.
+## Introduction
 
-Dataset - 1: -
+This project aims to extract COVID-19 data from two JSON datasets, clean and transform the data into CSV format, perform data analysis, and present insights through interactive dashboards.
 
-https://data.covid19india.org/v4/min/data.min.json
+## Data Sources
 
-DataSet - 2: -
+- [Dataset 1](https://data.covid19india.org/v4/min/data.min.json)
+- [Dataset 2](https://data.covid19india.org/v4/min/timeseries.min.json)
 
-https://data.covid19india.org/v4/min/timeseries.min.json
+## Tools Used
 
-I used Python to extract the data and convert it into csv format from the json files.
-Used Python Libraries: - Pandas, Requests, Numpy, and JSON
+- Python
+  - Pandas
+  - Requests
+  - NumPy
+  - JSON
+- SQL
+- Microsoft Excel
 
-PFA related file of data extraction: - (“Covid_Project_json_to_csv.ipynb”)
+## Data Extraction
 
-Extracted and cleaned multiple tables are stored in “Cleaned Extracted Data” folder.
+The data extraction process involved using Python and the following steps:
+1. Retrieving JSON data from the provided URLs.
+2. Parsing and cleaning the data.
+3. Converting the cleaned data into CSV format.
 
-Used SQL and Excel to get insights from those tables. “Covid_Project.sql” file contains all sql
-queries used to derive insights.
+For detailed code and steps, refer to the [Covid_Project_json_to_csv.ipynb](Covid_Project_json_to_csv.ipynb) notebook.
 
-Also used some statistics for getting some statistical insights like correlations, rates of deaths,
-Etc. This part was done in Excel.
+## Data Analysis
 
-“Project_dashboard.xlsx” file contains the summarised Dashboard. There are multiple
-dashboards in this file which are interactive.
+Data analysis was conducted using SQL, Excel, and statistical methods. Key tasks included:
+- SQL queries to derive insights (refer to [Covid_Project.sql](Covid_Project.sql)).
+- Statistical analysis such as correlations, death rates, etc. in Excel.
+
+For summarized insights and interactive dashboards, see [Project_dashboard.xlsx](Project_dashboard.xlsx).
+
+## Folder Structure
+
+- **Cleaned Extracted Data**: Contains the cleaned data in CSV format.
+- **Notebooks**: Stores Jupyter notebooks used in data extraction and analysis.
+- **SQL**: SQL scripts for data analysis.
+- **Dashboard**: Excel files with interactive dashboards.
+
+## Usage
+
+To reproduce the data extraction and analysis:
+1. Clone this repository.
+2. Refer to the notebooks and scripts in their respective folders for detailed steps.
+3. Explore the interactive dashboards in [Project_dashboard.xlsx](Project_dashboard.xlsx).
