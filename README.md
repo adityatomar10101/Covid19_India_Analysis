@@ -43,6 +43,13 @@ Key insights from the data analysis include:
 - Calculation of death rates and recovery rates.
   ![image](https://github.com/adityatomar10101/Covid19_India_Analysis/assets/137819767/65e42c6b-125b-4c41-809e-0c313bf027ae)
 
+  ![image](https://github.com/adityatomar10101/Covid19_India_Analysis/assets/137819767/339c0761-fa67-4b0c-b755-0505270ee81e)
+
+  ![image](https://github.com/adityatomar10101/Covid19_India_Analysis/assets/137819767/6915df3b-8cdb-4df0-83ee-42aad1447c15)
+
+  ![image](https://github.com/adityatomar10101/Covid19_India_Analysis/assets/137819767/1c914e42-694a-4fac-8954-a4ad69dcc8be)
+
+
 
 ## Challenges Faced
 
