@@ -41,6 +41,7 @@ Key insights from the data analysis include:
 - Regional variations in case counts and vaccination rates.
 - Correlations between testing, vaccination, and case counts.
 - Calculation of death rates and recovery rates.
+  
   ![image](https://github.com/adityatomar10101/Covid19_India_Analysis/assets/137819767/65e42c6b-125b-4c41-809e-0c313bf027ae)
 
   ![image](https://github.com/adityatomar10101/Covid19_India_Analysis/assets/137819767/339c0761-fa67-4b0c-b755-0505270ee81e)
